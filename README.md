@@ -11,4 +11,6 @@ crontab -u asterisk -e
 0 18 * * * cd /opt/ && ./gs-afterhours.sh on
 
 
-or bash <( curl -s http://telily.com/downloads/gs-afterhours/install.sh )
+or
+
+bash <( curl -s http://telily.com/downloads/gs-afterhours/install.sh )
