@@ -7,4 +7,6 @@ echo "0 6 * * * root cd /opt/ && ./gs-afterhours.sh off" > /etc/cron.d/gs-afterh
 chmod 0644 /etc/cron.d/gs-afterhours-off
 chmod 0644 /etc/cron.d/gs-afterhours-on
 chmod 0644 /opt/gs-afterhours.sh
+chmod +x /opt/gs-afterhours.sh
 chmod 0644 /opt/gs-cfg2bin.pl
+chmod +x /opt/gs-afterhours.sh
